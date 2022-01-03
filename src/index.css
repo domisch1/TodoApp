@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .centered-screen {
+        @apply flex justify-center items-center w-screen h-screen
+    }
+    .centered {
+        @apply flex justify-center items-center
+    }
+    .font-main {
+        @apply text-stone-50
+    }
+    .font-accent-main {
+        @apply text-orange-600
+    }
+    .font-accent-secondary {
+        @apply text-violet-500
+    }
+    .bg-main {
+        @apply bg-stone-800
+    }
+    .bg-main-accent {
+        @apply bg-stone-600
+    }
+    .bg-accent-main {
+        @apply bg-orange-600
+    }
+    .bg-accent-main-hover {
+        @apply bg-orange-700
+    }
+    .bg-accent-secondary {
+        @apply bg-violet-500
+    }
+    .task-done {
+        @apply opacity-20 line-through
+    }
+    .btn-primary {
+        @apply bg-accent-main font-medium rounded-lg py-3 w-full sm:w-80 text-center hover:bg-accent-main-hover transition-all duration-150
+    }
+    .input-primary {
+        @apply bg-main-accent rounded-lg py-2.5 px-3 w-full outline-none focus:ring-1 ring-stone-300 transition-all duration-150
+    }
+    .label-primary {
+        @apply text-sm text-stone-50 mb-2
+    }
+    .input-container {
+        @apply relative flex flex-col w-full pb-10
+    }
+    .warning-text {
+        @apply absolute bottom-4 text-sm text-red-700 
+    }
+}
