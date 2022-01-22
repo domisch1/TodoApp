@@ -3,15 +3,7 @@
     <h1 class="text-3xl medium">TODOS</h1>
     <div class="w-full mt-8">
       <button
-        class="
-          font-accent-main
-          medium
-          underline
-          text-base
-          cursor-pointer
-          mb-3
-          bg-none
-        "
+        class="font-accent-main medium underline text-base cursor-pointer mb-3 bg-none"
         @click="deleteTodos"
         v-if="this.$store.state.todosDemo.length > 0"
       >

@@ -15,16 +15,7 @@
         @keyup.enter="addTodo"
       />
       <button
-        class="
-          bg-accent-main
-          py-2.5
-          px-5
-          font-medium
-          rounded-lg
-          hover:bg-accent-main-hover
-          transition-all
-          duration-150
-        "
+        class="bg-accent-main py-2.5 px-5 font-medium rounded-lg hover:bg-accent-main-hover transition-all duration-150"
         @click="addTodo"
       >
         Add

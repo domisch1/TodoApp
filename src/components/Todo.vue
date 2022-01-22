@@ -1,30 +1,12 @@
 <template>
   <section
-    class="
-      relative
-      flex
-      items-center
-      flex-row
-      w-full
-      py-2
-      px-2
-      border-b border-stone-50
-    "
+    class="relative flex items-center flex-row w-full py-2 px-2 border-b border-stone-50"
   >
     <input
       type="checkbox"
       :name="todo"
       :id="todo"
-      class="
-        h-4
-        w-4
-        border-2 border-stone-50
-        mr-2
-        bg-stone-800
-        p-2
-        cursor-pointer
-        rounded-sm
-      "
+      class="h-4 w-4 border-2 border-stone-50 mr-2 bg-stone-800 p-2 cursor-pointer rounded-sm"
       v-model="checked"
       @click="changeStatus"
     />
